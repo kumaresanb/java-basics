@@ -6,9 +6,15 @@ class E{
 	}
 }
 
-class F{
+class F extends E{
 	void test1() {
 		System.out.println("I am in F test1");
+	}
+	
+	@Override
+	void test() {
+		// TODO Auto-generated method stub
+		super.test();
 	}
 }
 
